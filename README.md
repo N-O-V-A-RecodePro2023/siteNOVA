@@ -1,7 +1,7 @@
 <h1 align="center"> Website NOVA </h1> 
 
 <h1 align="center">
-      <img alt="logoNova" title="NOVA" src="https://github.com/N-O-V-A-RecodePro2023/Entregas-Recode/blob/main/SiteNOVA/IMG/LogoNOVA.png" width="200vw"/>
+      <img alt="logoNova" title="LOGONOVA" src="https://github.com/N-O-V-A-RecodePro2023/siteNOVA/blob/main/IMG/LogoNOVA.png" width="200vw"/>
 </h1>
 
 <h4 align="center"> :construction: Projeto em construção :construction: </h4>
@@ -28,10 +28,11 @@ Projeto desenvolvido durante o curso **Recode Pro 2023** para formação de dese
 Abaixo é possível visualizar as modelagens utilizadas para a composição do banco, desenvolvidas no BrModelo 3.31.
 <br><br>
 Modelo conceitual:
-![ModeloConceitual](https://github.com/N-O-V-A-RecodePro2023/Entregas-Recode/assets/81835735/40ab1410-8d24-4843-bb7b-1b4f64cddf87)
+![ModeloConceitual](https://github.com/N-O-V-A-RecodePro2023/siteNOVA/assets/81835735/79ec86f9-7de1-4aca-8015-ef7213e3c929)
 <br><br>
 Modelo lógico:
-![ModeloLogico](https://github.com/N-O-V-A-RecodePro2023/Entregas-Recode/assets/81835735/44694859-a812-4da4-b97d-86e56d6cd855)
+![ModeloLogico](https://github.com/N-O-V-A-RecodePro2023/siteNOVA/assets/81835735/3763d478-c03f-46e1-83d9-46bac8640847)
+
 
 ## 👩🏽‍💻👩🏽‍💻 Autores 👨🏽‍💻👩🏽‍💻
 
