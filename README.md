@@ -1,7 +1,7 @@
 <h1 align="center"> Website NOVA </h1> 
 
 <h1 align="center">
-      <img alt="logoNova" title="NOVA" src="https://github.com/N-O-V-A-RecodePro2023/Entregas-Recode/blob/main/SiteNOVA/IMG/LogoNOVA.png" width="200vw"/>
+      <img alt="logoNova" title="LOGONOVA" src="https://github.com/N-O-V-A-RecodePro2023/siteNOVA/blob/main/IMG/LogoNOVA.png" width="200vw"/>
 </h1>
 
 <h4 align="center"> :construction: Projeto em construção :construction: </h4>
