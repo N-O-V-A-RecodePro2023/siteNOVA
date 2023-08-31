@@ -51,7 +51,7 @@ Natália Marques da Silva - [@Natalia203](https://www.github.com/Natalia203)
 
 Natalia Oliveira Rodrigues- [@nataliarodrxgues](https://www.github.com/nataliarodrxgues)
 <br>
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nat%C3%A1lia-marques)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nataliarodrxgues)
 
 ## Licenças
 
