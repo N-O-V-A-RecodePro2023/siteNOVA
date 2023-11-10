@@ -22,7 +22,10 @@ Projeto desenvolvido durante o curso **Recode Pro 2023** para formação de dese
 -   **JavaScript**
 
 ### **Backend** 
--  (Em breve)
+-  **Java**
+	- Tomcat Apache
+	- Servlet
+-  **SQL**
 
 ### **Banco de dados** 
 Abaixo é possível visualizar as modelagens utilizadas para a composição do banco, desenvolvidas no BrModelo 3.31.
