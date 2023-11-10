@@ -39,6 +39,9 @@ Modelo lógico:
 
 ## 👩🏽‍💻👩🏽‍💻 Autores 👨🏽‍💻👩🏽‍💻
 
+Bruna Lorena Soares Gama - [@mikemars0701](https://www.github.com/gama07)
+<br>
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bruna-lorena-46819528a/)
 
 Maycon Martins Lima - [@mikemars0701](https://www.github.com/mikemars0701)
 <br>
