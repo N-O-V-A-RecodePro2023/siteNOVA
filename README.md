@@ -23,8 +23,7 @@ Projeto desenvolvido durante o curso **Recode Pro 2023** para formação de dese
 
 ### **Backend** 
 -  **Java**
-	- Tomcat Apache
-	- Servlet
+	- Spring Boot
 -  **SQL**
 
 ### **Banco de dados** 
