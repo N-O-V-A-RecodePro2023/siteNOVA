@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
 
   <title>N.O.V.A</title>
@@ -35,84 +35,78 @@
       padding: 10px;
       width: 100%;
     }
-
-    
   </style>
 </head>
 
 
-<!--NavBar-->
-
 <body style="overflow: auto">
-  <div class="antenav"></div>
-
-  <div class="shadow p-3 mb-5 bg-white rounded">
-    <nav class="navbar navbar-expand-lg bg-body-primary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="home.html"><img src="IMG/log_nav.png" alt="Bootstrap" width="200vw"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="quem_somos.html">Quem Somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="vagas.html">Vagas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="contato.html">Contato</a>
-            </li>
-
-          </ul>
-          <div class="botaobanner">
-            <div class="dropdown">
-              <button class="btn botaoazul dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Cadastre-se
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="cadastro_candidato.html">Candidato</a></li>
-                <li><a class="dropdown-item" href="cadastro_empresa.html">Empresa</a></li>
-              </ul>
+  <!-- NavBar -->
+  <nav class="content">
+    <div class="antenav"></div>
+    <div class="shadow p-3 mb-5 bg-white rounded">
+      <nav class="navbar navbar-expand-lg bg-body-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html"><img src="IMG/log_nav.png" alt="Bootstrap" width="200vw"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="quem_somos.html">Quem Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="vagas.html">Vagas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="contato.html">Contato</a>
+              </li>
+            </ul>
+            <div class="botaobanner">
+              <div class="dropdown">
+                <button class="btn botaoazul dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Cadastre-se
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="cadastro_candidato.html">Candidato</a></li>
+                  <li><a class="dropdown-item" href="cadastro_empresa.html">Empresa</a></li>
+                </ul>
+              </div>
+              <a href="login.html" class="btn btn-outline-info custom-btn">Entrar</a>
             </div>
-
-            <a href="login.html" class="btn btn-outline-info custom-btn">Entrar</a>
           </div>
         </div>
-      </div>
-  </div>
-  </div>
+      </nav>
+    </div>
   </nav>
-  </div>
 
   <!-- Formulário Cadastro Empresa-->
 
-  <div class="container">
+  <section class="container">
     <form style="padding: 20px;">
-<div class="jumbotron-fluid shadow p-5 bg-light rounded">
-  <h1 style="color: #025a58ff; font-size: 4vw; text-align: center;">CADASTRE SUA EMPRESA</h1>
-    <h1 style="color:#025a58ff; font-size: 1vw; text-align: center;">E SUAS OPORTUNIDADE(S) DE TRABALHO!</h1>
-    <div class="form-group mb-2">
-      <label for="formGroupExampleInput">Razão Social</label>
-      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escreva aqui seu nome">
-    </div>
-    <div class="form-group mb-2">
-      <label for="formGroupExampleInput">Nome Fantasia</label>
-      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escreva aqui seu nome">
-    </div>
-    <div class="form-group mb-2">
-      <label for="exampleFormControlInput2">CNPJ</label>
-      <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="00.000.000/0000-00">
-    </div>
-   
-    <div class="form-group mb-2">
-      <label for="exampleFormControlInput1">Email</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
-    </div>
+      <div class="jumbotron-fluid shadow p-5 bg-light rounded">
+        <h1 style="color: #025a58ff; font-size: 4vw; text-align: center;">CADASTRE SUA EMPRESA</h1>
+        <h1 style="color:#025a58ff; font-size: 1vw; text-align: center;">E SUAS OPORTUNIDADE(S) DE TRABALHO!</h1>
+        <div class="form-group mb-2">
+          <label for="formGroupExampleInput">Razão Social</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escreva aqui seu nome">
+        </div>
+        <div class="form-group mb-2">
+          <label for="formGroupExampleInput">Nome Fantasia</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escreva aqui seu nome">
+        </div>
+        <div class="form-group mb-2">
+          <label for="exampleFormControlInput2">CNPJ</label>
+          <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="00.000.000/0000-00">
+        </div>
+
+        <div class="form-group mb-2">
+          <label for="exampleFormControlInput1">Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+        </div>
         <div class="form-row" style="display: flex; gap: 20px">
           <div class="form-group col-md-5 mb-2">
             <label for="exampleFormControlInput3">Senha</label>
@@ -213,15 +207,13 @@
         <button type="submit" class="btn btn-primary p-20px" style="background-color: #ff904a;"
           id="botaocadastrar">Cadastrar</button>
     </form>
-  </div>
-  </div>
+  </section>
 
   <!-- Rodapé -->
   <footer>
-    <p>
       <img src="IMG/LogoNOVA.png" alt="N.O.V.A" style="width: 5%;">
-      2023 © Todos os Direitos Reservados | <strong>RECODE PRO</strong> | Site criado pelo <a href="https://github.com/N-O-V-A-RecodePro2023" style="color: white;">Squad 10</href>
-    </p>
+      2023 © Todos os Direitos Reservados | <strong>RECODE PRO</strong> | Site criado pelo <a
+        href="https://github.com/N-O-V-A-RecodePro2023" style="color: white;">Squad 10</href>
   </footer>
 
 
