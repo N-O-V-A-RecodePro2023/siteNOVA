@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+  <title>N.O.V.A</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="import" href="vlibras.html">
+  <script src="https://cdn.userway.org/widget.js" data-account="09FcxZNn6a"></script>
+  <script src="acessibilidade.js"></script>
+
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-image: url('grad0001.png');
+      background-size: auto;
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Acessível em Libras -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+  <body style="overflow: auto">
+
+
+    <div class="antenav"></div>
+
+    <!-- NavBar -->
+    <div class="shadow p-3 mb-5 bg-white rounded">
+      <nav class="navbar navbar-expand-lg bg-body-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html"><img src="IMG/log_nav.png" alt="Logotipo da N.O.V.A"
+              width="200vw"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="quem_somos.html">Quem Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="vagas.html">Vagas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+            </ul>
+            <div class="botaobanner">
+              <div class="dropdown">
+                <button class="btn botaoazul dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                  aria-label="Menu de Cadastro" aria-haspopup="true" aria-expanded="false">
+                  Cadastre-se
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="cadastro_candidato.html">Candidato</a></li>
+                  <li><a class="dropdown-item" href="cadastro_empresa.html">Empresa</a></li>
+                </ul>
+              </div>
+              <a href="login.html" class="btn btn-outline-info custom-btn" aria-label="Entrar">Entrar</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--banner Vagas-->
+    <header class="container">
+      <section class="image-container">
+        <video class="image" autoplay muted loop>
+          <source src="IMG/video_vagas.mp4" type="video/mp4">
+          Seu navegador não suporta o elemento de vídeo.
+        </video>
+        <div class="overlay-banner">
+          <h1 style="color: white; font-size: 4vw; text-align: center;">ENCONTRE SUA VAGA</h1>
+          <h1 style="color: white; font-size: 1vw; text-align: center;">VAGAS DIRECIONADAS PARA PESSOAS COM DEFICIÊNCIA
+            E/OU
+            REABILITADOS PELO INSS</h1>
+          <div class="d-grid gap-5 col-6 mx-auto" style="margin-top: 60px;">
+            <a href="cadastro_candidato.html" button class="btn btn-primary" type="button"
+              style="background-color: #ff904a;">CADASTRE-SE E ACESSE TODAS AS VAGAS
+              DISPONÍVEIS!</button></a>
+          </div>
+    </header>
+    </div>
+    </div>
+    </section>
+
+    <!-- Cards de Vagas-->
+    <article class="container">
+      <div class="card custom-card" style="margin-top: 30px;">
+
+        <!--Card 1-->
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="IMG/vagas.png" class="img rounded-start" alt="Imagem de um megafone anunciando diversos assuntos"
+              width="200vh">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <div class="icon-container">
+                <div class="icon">
+                  <img src="IMG/localizacao.png" alt="Icone localização">
+                  <span class="small-text"><strong>Diadema, SP</strong></span>
+                </div>
+                <div class="icon">
+                  <img src="IMG/hibrido.png" alt="Icone computador e rede">
+                  <span class="small-text"><strong>Presencial</strong></span>
+                </div>
+                <div class="icon">
+                  <img src="IMG/quantidade_vagas.png" alt="Icone pessoas">
+                  <span class="small-text"><strong>1 Vaga</strong></span>
+                </div>
+                <div class="icon">
+                  <img src="IMG/salario.png" alt="Icone dinheiro">
+                  <span class="small-text"><strong>2.800,00 </strong></span>
+                </div>
+              </div>
+              <h3 class="card-title" style="margin-top: 20px;">Promotor de Vendas</h3>
+              <p class="card-text">INDUSTRIA | CLT | ASSISTÊNCIA MÉDICA | VT/VR | GYMPASS | PLR</p>
+              <button type="button" class="btn btn-outline-info custom-btn" data-bs-toggle="modal"
+                data-bs-target="#modalCard01">
+                Saiba Mais
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!--Card 2-->
+    <article class="container">
+      <div class="card custom-card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="IMG/vagas.png" class="img rounded-start" alt="Imagem de um megafone anunciando diversos assuntos"
+              width="200vh">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <div class="icon-container">
+                <div class="icon">
+                  <img src="IMG/localizacao.png" alt="Icone localização">
+                  <span class="small-text"><strong>Ubatuba, SP</strong></span>
+                </div>
+                <div class="icon">
+                  <img src="IMG/hibrido.png" alt="Icone computador e rede">
+                  <span class="small-text"><strong>Híbrido</strong></span>
+                </div>
+                <div class="icon">
+                  <img src="IMG/quantidade_vagas.png" alt="Icone pessoas">
+                  <span class="small-text"><strong>2 Vaga</strong></span>
+                </div>
+                <div class="icon">
+                  <img src="IMG/salario.png" alt="Icone dinheiro">
+                  <span class="small-text"><strong>1.800,00</strong></span>
+                </div>
+              </div>
+              <h3 class="card-title" style="margin-top: 20px;">Assistente Administrativo </h3>
+              <p class="card-text">
+              <p class="card-text">ADM | CLT | ASSISTÊNCIA MÉDICA | VT/VR | SEGURO DE VIDA </p>
+              <button type="button" class="btn btn-outline-info custom-btn" data-bs-toggle="modal"
+                data-bs-target="#modalCard02">
+                Saiba Mais
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!--Card 3-->
+    <article class="container">
+      <div class="card custom-card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="IMG/vagas.png" class="img rounded-start" alt="Imagem de um megafone anunciando diversos assuntos"
+              width="200vh">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <div class="icon-container">
+                <div class="icon">
+                  <img src="IMG/localizacao.png" alt="Icone localização">
+                  <span class="small-text"><strong>Diadema, SP</strong></span>
+                </div>
+                <div class="icon">
+                  <img src="IMG/hibrido.png" alt="Icone computador e rede">
+                  <span class="small-text"><strong>Presencial</strong></span>
+                </div>
+                <div class="icon">
+                  <img src="IMG/quantidade_vagas.png" alt="Icone pessoas">
+                  <span class="small-text"><strong>1 Vaga</strong></span>
+                </div>
+                <div class="icon">
+                  <img src="IMG/salario.png" alt="Icone dinheiro">
+                  <span class="small-text"><strong>2.450,23</strong></span>
+                </div>
+              </div>
+              <h3 class="card-title" style="margin-top: 20px;">Tecnico em Enfermagem</h3>
+              <p class="card-text">SAÚDE | CLT | VA/VT | ASSISTÊNCIA MÉDICA | GYMPASS</p>
+              <button type="button" class="btn btn-outline-info custom-btn" data-bs-toggle="modal"
+                data-bs-target="#modalCard03">
+                Saiba Mais
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+
+    <!--Card 4-->
+    <article class="container">
+      <div class="card custom-card">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="IMG/vagas.png" class="img rounded-start"
+              alt="Imagem de um megafone anunciando diversos assuntos, escrito vaga confidencial" width="200vh">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <div class="icon-container">
+                <div class="icon">
+                  <img src="IMG/localizacao.png" alt="Icone localização">
+                  <span class="small-text"><strong>São Paulo, SP</strong></span>
+                </div>
+                <div class="icon">
+                  <img src="IMG/hibrido.png" alt="Icone computador e rede">
+                  <span class="small-text"><strong>Presencial</strong></span>
+                </div>
+                <div class="icon">
+                  <img src="IMG/quantidade_vagas.png" alt="Icone pessoas">
+                  <span class="small-text"><strong>3 Vaga</strong></span>
+                </div>
+                <div class="icon">
+                  <img src="IMG/salario.png" alt="Icone dinheiro">
+                  <span class="small-text"><strong>4.300,00</strong></span>
+                </div>
+              </div>
+              <h3 class="card-title" style="margin-top: 20px;">Assistente Financeiro Sênior</h3>
+              <p class="card-text">INDUSTRIA | VR/VA | ASSISTÊNCIA MÉDICA | GYMPASS | VT | PLR</p>
+              <button type="button" class="btn btn-outline-info custom-btn" data-bs-toggle="modal"
+                data-bs-target="#modalCard04">
+                Saiba Mais
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!--Modal Vagas-->
+    
+    <!-- Modal 1-->
+    <div class="modal fade" id="modalCard01" tabindex="-1" aria-labelledby="modalSaibaMaisLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content shadow"> 
+          <div class="modal-header">
+            <h4 class="modal-title" id="modalSaibaMaisLabel">Descrição da Vaga</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+          </div>
+
+          <div class="modal-body">
+
+            <p class="container lead text-left">
+
+              Trazendo consigo uma visão clara, valores sólidos e uma missão comprometida com a inclusão. Nossa jornada
+              até aqui é marcada por uma busca constante pela excelência, e agora, ao oferecer a oportunidade para a
+              posição de Promotor(a) de Vendas, buscamos agregar talentos que compartilhem dessa visão única.
+            </p>
+            <ul class="list-group m-2 w-75 container lead text-left">
+              <li class="list-group-item ">
+                <h5>O que você precisa pra se candidatar?</h5>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Ensino médio completo
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Pacote Office - Excel - Nível Básico
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  PLR (Participação nos Lucros e Resultados)
+                </div>
+              </li>
+            </ul>
+
+            <ul class="list-group m-2 w-75 container lead text-left">
+              <li class="list-group-item ">
+                <h5>Quais etapas desse processo seletivo?</h5>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Cadastro
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Análise do seu perfil
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Entrevistas
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Proposta
+                </div>
+              </li>
+            </ul>
+
+            <ul class="list-group m-2 w-75 container lead text-left">
+              <li class="list-group-item ">
+                <h5>Quais os berneficios?</h5>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Assistencia Médica/Odontologica
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Vale Transporte/Vale Refeição
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Gympass
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  PLR (Participação nos Lucros e Resultados)
+                </div>
+              </li>
+            </ul>
+
+
+            <ul class="list-group m-2 w-75 container lead text-left">
+              <li class="list-group-item ">
+                <h5>A empresa tem Acessibilidade para PCD?</h5>
+                <p>
+                  Acessos a ambientes adaptados e estacionamento para veiculos adaptados</p>
+              </li>
+            </ul>
+
+            <p class="container lead text-left">
+              Por aqui, nós construímos o futuro da mobilidade sustentável todos os dias. Vem com a gente?
+            </p>
+            <div class="container">
+              <a href="cadastro_candidato.html" button class="btn btn-primary" type="button"
+                style="background-color: #ff904a;"" data-bs-dismiss=" modal">Candidate-se</a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2-->
+    <div class="modal fade" id="modalCard02" tabindex="-1" aria-labelledby="modalSaibaMaisLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content shadow">
+          <div class="modal-header">
+            <h4 class="modal-title" id="modalSaibaMaisLabel">Descrição da Vaga</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+          </div>
+
+          <div class="modal-body">
+
+            <p class="container lead text-left">
+
+              Trazendo consigo uma visão clara, valores sólidos e uma missão comprometida com a inclusão. Nossa jornada
+              até aqui é marcada por uma busca constante pela excelência, e agora, ao oferecer a oportunidade para a
+              posição de Assistente Administrativo, buscamos agregar talentos que compartilhem dessa visão única.
+            </p>
+            <ul class="list-group m-2 w-75 container lead text-left">
+              <li class="list-group-item ">
+                <h5>O que você precisa pra se candidatar?</h5>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Graduação completa
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Pacote Office - Excel - Nível Intermediário
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Inglês Avançado (desejavel)
+                </div>
+              </li>
+            </ul>
+
+            <ul class="list-group m-2 w-75 container lead text-left">
+              <li class="list-group-item ">
+                <h5>Quais etapas desse processo seletivo?</h5>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Cadastro
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Análise do seu perfil
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Entrevistas
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Proposta
+                </div>
+              </li>
+            </ul>
+
+            <ul class="list-group m-2 w-75 container lead text-left">
+              <li class="list-group-item ">
+                <h5>Quais os berneficios?</h5>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Assistencia Médica/Odontologica
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Vale Transporte/Vale Refeição
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Gympass
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Seguro de Vida
+                </div>
+              </li>
+            </ul>
+
+
+            <ul class="list-group m-2 w-75 container lead text-left">
+              <li class="list-group-item ">
+                <h5>A empresa tem Acessibilidade para PCD?</h5>
+                <p>
+                  Acessos a ambientes adaptados e estacionamento para veiculos adaptados</p>
+              </li>
+            </ul>
+
+            <p class="container lead text-left">
+              Por aqui, nós construímos o futuro da mobilidade sustentável todos os dias. Vem com a gente?
+            </p>
+            <div class="container">
+              <a href="cadastro_candidato.html" button class="btn btn-primary" type="button"
+                style="background-color: #ff904a;"" data-bs-dismiss=" modal">Candidate-se</a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3-->
+    <div class="modal fade" id="modalCard03" tabindex="-1" aria-labelledby="modalSaibaMaisLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content shadow"> 
+          <div class="modal-header">
+            <h4 class="modal-title" id="modalSaibaMaisLabel">Descrição da Vaga</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+          </div>
+
+          <div class="modal-body">
+
+            <p class="container lead text-left">
+
+              Trazendo consigo uma visão clara, valores sólidos e uma missão comprometida com a inclusão. Nossa jornada
+              até aqui é marcada por uma busca constante pela excelência, e agora, ao oferecer a oportunidade para a
+              posição de Técnico em Enfermagem, buscamos agregar talentos que compartilhem dessa visão única.
+            </p>
+            <ul class="list-group m-2 w-75 container lead text-left">
+              <li class="list-group-item ">
+                <h5>O que você precisa pra se candidatar?</h5>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                 Curso completo de Auxiliar de Enfermagem
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  COREN ativo
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Candidato selecionado deverá estar vacinado com todas as doses contra a COVID19
+                </div>
+              </li>
+            </ul>
+
+            <ul class="list-group m-2 w-75 container lead text-left">
+              <li class="list-group-item ">
+                <h5>Quais etapas desse processo seletivo?</h5>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Cadastro
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Análise do seu perfil
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Entrevistas
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Proposta
+                </div>
+              </li>
+            </ul>
+
+            <ul class="list-group m-2 w-75 container lead text-left">
+              <li class="list-group-item ">
+                <h5>Quais os berneficios?</h5>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Assistencia Médica/Odontologica
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Vale Transporte/Vale Refeição
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Gympass
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                 Auxilio creche
+                </div>
+              </li>
+            </ul>
+
+
+            <ul class="list-group m-2 w-75 container lead text-left">
+              <li class="list-group-item ">
+                <h5>A empresa tem Acessibilidade para PCD?</h5>
+                <p>
+                  Não informado.</p>
+              </li>
+            </ul>
+
+            <p class="container lead text-left">
+              Por aqui, nós construímos o futuro da mobilidade sustentável todos os dias. Vem com a gente?
+            </p>
+            <div class="container">
+              <a href="cadastro_candidato.html" button class="btn btn-primary" type="button"
+                style="background-color: #ff904a;"" data-bs-dismiss=" modal">Candidate-se</a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4-->
+    <div class="modal fade" id="modalCard04" tabindex="-1" aria-labelledby="modalSaibaMaisLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content shadow"> 
+          <div class="modal-header">
+            <h4 class="modal-title" id="modalSaibaMaisLabel">Descrição da Vaga</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+          </div>
+
+          <div class="modal-body">
+
+            <p class="container lead text-left">
+
+              Trazendo consigo uma visão clara, valores sólidos e uma missão comprometida com a inclusão. Nossa jornada
+              até aqui é marcada por uma busca constante pela excelência, e agora, ao oferecer a oportunidade para a
+              posição de Técnico em Enfermagem, buscamos agregar talentos que compartilhem dessa visão única.
+            </p>
+            <ul class="list-group m-2 w-75 container lead text-left">
+              <li class="list-group-item ">
+                <h5>O que você precisa pra se candidatar?</h5>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Superior completo em Economia, Ciências Contábeis, Administração ou Engenharia
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Inglês fluente
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+               Trabalhar em colaboração com o time de Finanças e Tecnologia
+                </div>
+              </li>
+            </ul>
+
+            <ul class="list-group m-2 w-75 container lead text-left">
+              <li class="list-group-item ">
+                <h5>Quais etapas desse processo seletivo?</h5>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Cadastro
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Análise do seu perfil
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Entrevistas
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Proposta
+                </div>
+              </li>
+            </ul>
+
+            <ul class="list-group m-2 w-75 container lead text-left">
+              <li class="list-group-item ">
+                <h5>Quais os berneficios?</h5>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Assistencia Médica/Odontologica
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Vale Transporte/Vale Refeição
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  Gympass
+                </div>
+                <div class="icon">
+                  <img src="IMG/verificar_icon.png" alt="Icone de verificação" width="20vh">
+                  PLR (Participação nos Lucros e Resultados)
+                </div>
+              </li>
+            </ul>
+
+
+            <ul class="list-group m-2 w-75 container lead text-left">
+              <li class="list-group-item ">
+                <h5>A empresa tem Acessibilidade para PCD?</h5>
+                <p>
+                  Não informado.</p>
+              </li>
+            </ul>
+
+            <p class="container lead text-left">
+              Por aqui, nós construímos o futuro da mobilidade sustentável todos os dias. Vem com a gente?
+            </p>
+            <div class="container">
+              <a href="cadastro_candidato.html" button class="btn btn-primary" type="button"
+                style="background-color: #ff904a;"" data-bs-dismiss=" modal">Candidate-se</a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+      <img src="IMG/LogoNOVA.png" alt="N.O.V.A" style="width: 5%;">
+      2023 © Todos os Direitos Reservados | <strong>RECODE PRO</strong> | Site criado pelo <a
+        href="https://github.com/N-O-V-A-RecodePro2023" style="color: white;">Squad 10</href>
+    </footer>
+
+    <!-- Scripts e Importações-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script src="js/libras.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <script>
+      var linkAbrirModal = document.getElementById('abrirModal');
+      var modal = document.getElementById('meuModal');
+
+      // Quando o link é clicado, mostra o modal
+      linkAbrirModal.addEventListener('click', function () {
+        modal.style.display = 'block';
+      });
+
+      // Quando o usuário clica no botão "Fechar" ou fora do modal, fecha o modal
+      modal.addEventListener('click', function (event) {
+        if (event.target === modal || event.target.className === 'fechar') {
+          modal.style.display = 'none';
+        }
+      });
+    </script>
+  </body>
+
+</html>
