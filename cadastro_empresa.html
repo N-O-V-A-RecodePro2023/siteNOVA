@@ -11,7 +11,14 @@
   <script src="https://cdn.userway.org/widget.js" data-account="09FcxZNn6a"></script>
   <script src="acessibilidade.js"></script>
 
+  <script>
+    function exibirAlertaCadastroEmpresa() {
 
+      alert("Cadastro da empresa realizado com sucesso. Seja bem-vindo(a) a NOVA!");
+
+    }
+  </script>
+  
   <style>
     body {
       margin: 0;
@@ -201,7 +208,7 @@
           <textarea class="form-control" id="descSeguimentoEmpresa" th:field="*{descSeguimentoEmpresa}" rows="1"></textarea>
         </div>
         <button type="submit" class="btn btn-primary p-20px" style="background-color: #ff904a;"
-          id="botaocadastrar">Cadastrar</button>
+          id="botaocadastrar" onclick="exibirAlertaCadastroEmpresa()">Cadastrar</button>
     </form>
   </section>
 

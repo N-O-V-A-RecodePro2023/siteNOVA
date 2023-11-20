@@ -13,7 +13,13 @@
   <script src="https://cdn.userway.org/widget.js" data-account="09FcxZNn6a"></script>
   <script src="acessibilidade.js"></script>
 
+  <script>
+    function exibirAlertaCadastroCandidato() {
 
+      alert("Cadastro do candidato realizado com sucesso. Seja bem-vindo(a) a NOVA!");
+
+    }
+  </script>
   <style>
     body {
       margin: 0;
@@ -208,7 +214,7 @@
         <input class="form-control" type="file" id="formFile">
       </div>
       <button type="submit" class="btn btn-primary p-20px" style="background-color: #ff904a;"
-        id="botaocadastrar">Cadastrar</button>
+        id="botaocadastrar" onclick="exibirAlertaCadastroCandidato()">Cadastrar</button>
     </div>
   </form>
 </section>
