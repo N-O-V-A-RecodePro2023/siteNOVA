@@ -89,119 +89,122 @@
           <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escreva aqui seu nome">
         </div>
         <div class="form-group mb-2">
-          <label for="formGroupExampleInput">Nome Fantasia</label>
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escreva aqui seu nome">
+          <label for="razaoSocialEmpresa">Razão Social</label>
+          <input type="text" class="form-control" id="razaoSocialEmpresa" th:field="*{razaoSocialEmpresa}" placeholder="Escreva aqui seu nome">
         </div>
         <div class="form-group mb-2">
-          <label for="exampleFormControlInput2">CNPJ</label>
-          <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="00.000.000/0000-00">
+          <label for="nomeFantasiaEmpresa">Nome Fantasia</label>
+          <input type="text" class="form-control" id="nomeFantasiaEmpresa" th:field="*{nomeFantasiaEmpresa}"  placeholder="Escreva aqui seu nome">
+        </div>
+        <div class="form-group mb-2">
+          <label for="cnpjEmpresa">CNPJ</label>
+          <input type="text" class="form-control" id="cnpjEmpresa" th:field="*{cnpjEmpresa}" placeholder="00.000.000/0000-00">
         </div>
 
         <div class="form-group mb-2">
-          <label for="exampleFormControlInput1">Email</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+          <label for="emailEmpresa">Email</label>
+          <input type="email" class="form-control" id="emailEmpresa" th:field="*{email}" placeholder="nome@exemplo.com">
         </div>
         <div class="form-row" style="display: flex; gap: 20px">
           <div class="form-group col-md-5 mb-2">
-            <label for="exampleFormControlInput3">Senha</label>
-            <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Digite sua senha">
+            <label for="senhaEmpresa">Senha</label>
+            <input type="password" class="form-control" id="senhaEmpresa" th:field="*{senha}" placeholder="Digite sua senha">
           </div>
           <div class="form-group col-md-5 mb-2">
-            <label for="exampleFormControlInput4">Confirme a Senha</label>
-            <input type="text" class="form-control" id="exampleFormControlInput4" placeholder="Confirme sua senha">
+            <label for="ConfirmesenhaEmpresa">Confirme a Senha</label>
+            <input type="password" class="form-control" id="ConfirmesenhaEmpresa"  placeholder="Confirme sua senha">
           </div>
         </div>
         <div class="form-group mb-2">
-          <label for="exampleFormControlInput2">Telefone</label>
-          <input type="tel" class="form-control" id="exampleFormControlInput2" placeholder="(xx) xxxxx-xxxx">
+          <label for="telefoneEmpresa">Telefone</label>
+          <input type="tel" class="form-control" id="telefoneEmpresa" th:field="*{telefoneEmpresa}" placeholder="(xx) xxxxx-xxxx">
         </div>
+
+        <div class="form-group mb-2">
+          <label for="enderecoEmpresa">Endereço</label>
+          <input type="text" class="form-control" id="enderecoEmpresa" th:field="*{enderecoEmpresa}" placeholder="Digite seu endereço">
+        </div>
+
         <div class="form-row mb-2" style="display: flex; gap: 20px">
           <div class="form-row mb-2" style="display: flex; gap: 20px">
             <div class="form-group col-md-5 mb-2">
-              <label for="exampleFormControlInput3">Endereço</label>
-              <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Digite seu endereço">
+              <label for="numeroEmpresa">Número</label>
+              <input type="text" class="form-control" id="numeroEmpresa" th:field="*{numeroEmpresa}" placeholder="Digite o número">
             </div>
             <div class="form-group col-md-5 mb-2">
-              <label for="exampleFormControlInput4">Número</label>
-              <input type="text" class="form-control" id="exampleFormControlInput4" placeholder="Digite o número">
+              <label for="complementoEmpresa">Complemento</label>
+              <input type="text" class="form-control" id="complementoEmpresa" th:field="*{complementoEmpresa}" placeholder="Escreva aqui o complemento">
+            </div>
+            <div class="form-group col-md-5 mb-2">
+              <label for="bairroEmpresa">Bairro</label>
+              <input type="text" class="form-control" id="bairroEmpresa" th:field="*{bairroEmpresa}" placeholder="Digite seu bairro">
             </div>
           </div>
         </div>
 
-        <div class="form-group mb-2">
-          <label for="formGroupExampleInput">Complemento</label>
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escreva aqui o complemento">
+        <div class="form-row mb-2">
+          <label for="cidadeEmpresa">Cidade</label>
+          <input type="text" class="form-control" id="cidadeEmpresa" th:field="*{cidadeEmpresa}" placeholder="Escreva aqui sua cidade">
         </div>
 
-        <div class="form-row" style="display: flex; gap: 20px">
-          <div class="form-container">
-            <div class="form-group mb-2">
-              <label for="exampleFormControlInput3">Bairro</label>
-              <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Digite seu bairro">
+            <div class="form-row mb-2">
+              <label for="estadoEmpresa">Estado</label>
+              <select class="form-control" id="estadoEmpresa" th:field="*{estadoEmpresa}">
+                <option  value="" disabled selected>Selecione um estado....</option>
+                <option value="Acre">Acre</option>
+                <option value="Alagoas">Alagoas</option>
+                <option value="Amapá">Amapá</option>
+                <option value="Amazonas">Amazonas</option>
+                <option value="Bahia">Bahia</option>
+                <option value="Ceará">Ceará</option>
+                <option value="Distrito Federal">Distrito Federal</option>
+                <option value="Espirito Santo">Espírito Santo</option>
+                <option value="Goiás" >Goiás</option>
+                <option value="Maranhão">Maranhão</option>
+                <option value="Mato Grosso">Mato Grosso</option>
+                <option value="Mato Grosso do Sul" >Mato Grosso do Sul</option>
+                <option value="Minas Gerais">Minas Gerais</option>
+                <option value="Para">Pará</option>
+                <option value="Paraíba">Paraíba</option>
+                <option value="Paraná">Paraná</option>
+                <option value="Pernambuco">Pernambuco</option>
+                <option value="Piauí">Piauí</option>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                <option value="Rondônia">Rondônia</option>
+                <option value="Roraima">Roraima</option>
+                <option value="Santa Catarina">Santa Catarina</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Sergipe">Sergipe</option>
+                <option value="Tocantins">Tocantins</option>
+              </select>
             </div>
-          </div>
 
-          <div class="form-group mb-2">
-            <label for="exampleFormControlSelect1">Estado</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option disabled selected>Selecione um estado....</option>
-              <option>Acre</option>
-              <option>Alagoas</option>
-              <option>Amapá</option>
-              <option>Amazonas</option>
-              <option>Bahia</option>
-              <option>Ceará</option>
-              <option>Distrito Federal</option>
-              <option>Espírito Santo</option>
-              <option>Goiás</option>
-              <option>Maranhão</option>
-              <option>Mato Grosso</option>
-              <option>Mato Grosso do Sul</option>
-              <option>Minas Gerais</option>
-              <option>Pará</option>
-              <option>Paraíba</option>
-              <option>Paraná</option>
-              <option>Pernambuco</option>
-              <option>Piauí</option>
-              <option>Rio de Janeiro</option>
-              <option>Rio Grande do Norte</option>
-              <option>Rio Grande do Sul</option>
-              <option>Rondônia</option>
-              <option>Roraima</option>
-              <option>Santa Catarina</option>
-              <option>São Paulo</option>
-              <option>Sergipe</option>
-              <option>Tocantins</option>
-            </select>
-          </div>
-        </div>
 
         <div class="form-group mb-2">
-          <label for="formGroupExampleInput">Cidade</label>
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escreva aqui sua cidade">
-        </div>
-        <div class="form-group mb-2">
-          <label for="exampleFormControlSelect1">Seguimento</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option disabled selected>Selecione uma opção....</option>
-            <option>TI (Tecnologia da Informação)</option>
-            <option>Financeiro</option>
-            <option>Saúde</option>
-            <option>Educação</option>
-            <option>Indústria</option>
-            <option>Comércio</option>
-            <option>Serviços</option>
-            <option>Outro Segmento</option>
+          <label for="seguimentoEmpresa">Seguimento</label>
+          <select class="form-control" id="seguimentoEmpresa" th:field="*{seguimentoEmpresa}">
+            <option value="" disabled selected>Selecione uma opção....</option>
+            <option value="TI">TI (Tecnologia da Informação)</option>
+            <option value="Financeiro">Financeiro</option>
+            <option value="Saude">Saúde</option>
+            <option value="Educacao">Educação</option>
+            <option value="Industria">Indústria</option>
+            <option value="Comercio">Comércio</option>
+            <option value="Servicos">Serviços</option>
+            <option value="Outro">Outro Segmento</option>
           </select>
         </div>
         <div class="form-group mb-2">
-          <label for="exampleFormControlTextarea1">Qual Seguimento?</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+          <label for="descSeguimentoEmpresa">Caso tenha selecionado a opção "Outro", descreva a deficiência, por gentileza</label>
+          <textarea class="form-control" id="descSeguimentoEmpresa" th:field="*{descSeguimentoEmpresa}" rows="1"></textarea>
         </div>
         <button type="submit" class="btn btn-primary p-20px" style="background-color: #ff904a;"
           id="botaocadastrar">Cadastrar</button>
     </form>
   </section>
+
 
   <!-- Rodapé -->
   <footer>
